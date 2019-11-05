@@ -3,14 +3,19 @@ using namespace std;
 
 void decimalToHex(int n);
 
-int main() {
+int main()
+{
     int num, base;
 
     cout << "Enter decimal number to convert: ";
     cin >> num;
     cout << "\nNumber in hexadecimal is ";
 
-    decimalToHex (num);
+    if (num == 0) {
+        cout << num;
+    } else {
+        decimalToHex (num);
+    }
 }
 
 void decimalToHex(int n)
