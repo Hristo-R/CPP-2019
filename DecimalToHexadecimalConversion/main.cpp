@@ -1,10 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 void decimalToHex(int n);
 
-int main()
-{
+int main() {
     int num, base;
 
     cout << "Enter decimal number to convert: ";
@@ -18,11 +18,10 @@ int main()
     }
 }
 
-void decimalToHex(int n)
-{
+void decimalToHex(int n) {
     if (n > 0) {
-        decimalToHex(n/16);
-        switch (n%16){
+        decimalToHex(n / 16);
+        switch (n % 16){
             case 0: cout << '0';
                 break;
             case 1: cout << '1';
