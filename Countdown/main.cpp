@@ -9,12 +9,13 @@ int main()
 {
     unsigned short int time;
     cout << "Please input a integer in range [1, 65535]" << endl;
-
-    while (!(cin >> time) || (time < 1) || (time > 65535)) {
+    cin >> time;
+    while (cin.fail() || (time < 1) || (time > 65535)) {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');        
         cout << "Invalid input\n";
         cout << "Please input a integer in range [1, 65535]" << endl;
+        cin >> time;
     }
 
     int hour = time / 3600;
