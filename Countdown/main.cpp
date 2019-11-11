@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <limits>
 #include <windows.h>
 
 using namespace std;
@@ -11,7 +12,7 @@ int main()
 
     while (!(cin >> time) || (time < 1) || (time > 65535)) {
         cin.clear();
-        cin.ignore(1000, '\n');
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');        
         cout << "Invalid input\n";
         cout << "Please input a integer in range [1, 65535]" << endl;
     }
