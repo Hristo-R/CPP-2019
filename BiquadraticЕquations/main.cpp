@@ -5,15 +5,9 @@ using namespace std;
 
 int main()
 {
-    double a;
-    double b;
-    double c;
-    double x1;
-    double x2;
-    double x3;
-    double x4;
-    double y1;
-    double y2;
+    double a, b, c;
+    double x1, x2, x3, x4;
+    double y1, y2;
 
     cout << "a = ";
     cin >> a;
