@@ -27,7 +27,7 @@ int main()
     }
     cout << "\n";
 
-    // Sorting the rows from first columns
+    // Sorting the rows from first element
     col = 0;
     for (row = 0; row < n; row++) {
         for (nextRow = (row + 1); nextRow < n; nextRow++) {
