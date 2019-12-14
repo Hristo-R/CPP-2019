@@ -15,7 +15,7 @@ int main()
 
     int row;
     int col;
-    int nextRow;
+    int next;
     int temp;
 
     cout << "The input matrix is: " << endl;
@@ -30,12 +30,12 @@ int main()
     // Sorting the rows from first element
     col = 0;
     for (row = 0; row < n; row++) {
-        for (nextRow = (row + 1); nextRow < n; nextRow++) {
-            if (matrix[row][col] < matrix[nextRow][col]) {
+        for (next = (row + 1); next < n; next++) {
+            if (matrix[row][col] < matrix[next][col]) {
                 for (int i = 0; i < n; i++) {
                     temp = matrix[row][i];
-                    matrix[row][i] = matrix[nextRow][i];
-                    matrix[nextRow][i] = temp;
+                    matrix[row][i] = matrix[next][i];
+                    matrix[next][i] = temp;
                 }
             }
         }
