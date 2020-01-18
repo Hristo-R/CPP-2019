@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void sortingArrayAscending(int * arr, int sizeArr)
+void sortingArrayAscending(int *arr, int sizeArr)
 {
     int temp;
     for (int i = 0; i < sizeArr; i++) {
@@ -16,7 +16,7 @@ void sortingArrayAscending(int * arr, int sizeArr)
     }
 }
 
-void sortingArrayDescending(int * arr, int sizeArr)
+void sortingArrayDescending(int *arr, int sizeArr)
 {
     int temp;
     for (int i = 0; i < sizeArr; i++) {
@@ -30,7 +30,7 @@ void sortingArrayDescending(int * arr, int sizeArr)
     }
 }
 
-void printingArray(int * arr, int sizeArr)
+void printingArray(int *arr, int sizeArr)
 {
     for (int i = 0; i < sizeArr; i++) {
         cout << arr[i] << " ";
