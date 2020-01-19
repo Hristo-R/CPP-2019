@@ -14,6 +14,7 @@ int main()
     for (int i = 0; i <= n; i++)
     {
         int asterisksCount = i;
+		
         for (int j = 0; j <= asterisksCount; j++) {
             asterisks += '*';
         }
