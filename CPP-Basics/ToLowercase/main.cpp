@@ -3,6 +3,8 @@
 
 using namespace std;
 
+const int MAX_LENGTH = 100;
+
 char *toLowercase(char* sentence)
 {
     size_t textLength = strlen(sentence);
@@ -17,10 +19,10 @@ char *toLowercase(char* sentence)
 
 int main()
 {
-    char sentence[1000];
+    char sentence[MAX_LENGTH];
 
     cout << "Enter sentence:" << endl;
-    cin.getline(sentence, 1000);
+    cin.getline(sentence, MAX_LENGTH);
 
     cout << toLowercase(sentence) << endl;
 
