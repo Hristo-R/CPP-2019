@@ -24,7 +24,6 @@ int main()
     cout << "Enter sentence:" << endl;
     cin.getline(sentence, MAX_LENGTH);
 
-    //toUppercase(sentence);
     cout << toUppercase(sentence) << endl;
 
     return 0;
