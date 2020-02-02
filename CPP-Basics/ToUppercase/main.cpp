@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void toUppercase(char* sentence)
+char *toUppercase(char* sentence)
 {
     size_t textLength = strlen(sentence);
     for (unsigned int i = 0; i < textLength; i++) {
@@ -11,6 +11,8 @@ void toUppercase(char* sentence)
             sentence[i] = sentence[i] - ('a' - 'A');
         }
     }
+
+    return sentence;
 }
 
 int main()
@@ -20,8 +22,8 @@ int main()
     cout << "Enter sentence:" << endl;
     cin.getline(sentence, 1000);
 
-    toUppercase(sentence);
-    cout << sentence << endl;
+    //toUppercase(sentence);
+    cout << toUppercase(sentence) << endl;
 
     return 0;
 }
