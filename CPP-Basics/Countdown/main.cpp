@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
     unsigned short int time;
+	
     cout << "Please input a integer in range [1, 65535]" << endl;
     cin >> time;
     while (cin.fail() || (time < 1) || (time > 65535)) {
