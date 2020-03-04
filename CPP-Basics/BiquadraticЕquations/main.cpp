@@ -18,10 +18,10 @@ int main()
 
     double D = b * b - 4 * a * c;
 
-    if (D < 0){
+    if (D < 0) {
         cout << "no real roots" << endl;
         return 0;
-    } else if (D == 0){
+    } else if (D == 0) {
         y1 = y2 = -1 * (b / (2 * a));
         cout << "y1 = y2 = " << y1;
     } else {
