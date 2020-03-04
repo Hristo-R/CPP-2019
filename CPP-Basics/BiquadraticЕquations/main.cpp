@@ -33,15 +33,15 @@ int main()
 
     if (y1 < 0 && y2 < 0) {
         cout << "no real roots";
-    } else if (y1 >= 0 && y2 >= 0){
+    } else if (y1 >= 0 && y2 >= 0) {
         cout << "x1 = " << sqrt(y1) << endl;
         cout << "x2 = " << -sqrt(y1) << endl;
         cout << "x3 = " << sqrt(y2) << endl;
         cout << "x4 = " << -sqrt(y2) << endl;
-    } else if (y1 >= 0 && y2 < 0){
+    } else if (y1 >= 0 && y2 < 0) {
         cout << "x1 = " << sqrt(y1) << endl;
         cout << "x2 = " << -sqrt(y1) << endl;
-    } else if (y1 < 0 && y2 >= 0){
+    } else if (y1 < 0 && y2 >= 0) {
         cout << "x1 = " << sqrt(y2) << endl;
         cout << "x2 = " << -sqrt(y2) << endl;
     }
