@@ -7,7 +7,7 @@
 
 Company* find(std::vector<Company*> companies, int searchId)
 {
-    for (Company* company : companies) {
+    	for (Company* company : companies) {
 		if (company->getId() == searchId) {
             return company;
 		}
