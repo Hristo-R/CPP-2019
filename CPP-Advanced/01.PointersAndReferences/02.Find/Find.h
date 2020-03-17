@@ -13,7 +13,7 @@ Company* find(std::vector<Company*> companies, int searchId)
 		}
 	}
 
-    return nullptr;
+    	return nullptr;
 }
 
 #endif // FIND_H_INCLUDED
