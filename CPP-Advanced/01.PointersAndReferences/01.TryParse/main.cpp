@@ -13,7 +13,7 @@ int main()
 	bool parsedB = tryParse(bString, b);
 	if (parsedA && parsedB) {
 		std::cout << a + b << std::endl;
-	}
+	} 
 	else {
 		if (parsedA) {
 			std::cout << a << std::endl;
