@@ -3,8 +3,6 @@
 
 #include <vector>
 
-//#include "Company.h"
-
 Company* find(std::vector<Company*> companies, int searchId)
 {
     	for (Company* company : companies) {
