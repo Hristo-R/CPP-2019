@@ -3,17 +3,15 @@
 
 #include <vector>
 
-//#include "Company.h"
-
 Company* find(std::vector<Company*> companies, int searchId)
 {
-    for (Company* company : companies) {
+    	for (Company* company : companies) {
 		if (company->getId() == searchId) {
-            return company;
+            		return company;
 		}
 	}
 
-    return nullptr;
+    	return nullptr;
 }
 
 #endif // FIND_H_INCLUDED

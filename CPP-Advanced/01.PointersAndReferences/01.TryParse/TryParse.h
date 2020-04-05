@@ -4,11 +4,11 @@
 #include <string>
 #include <sstream>
 
-bool tryParse(std::string str, int &num)
-{
+bool tryParse(std::string str, int &num) {
     if (std::istringstream(str) >> num) {
         return true;
     }
+    
     return false;
 }
 

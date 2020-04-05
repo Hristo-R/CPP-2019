@@ -5,6 +5,8 @@
 #include <istream>
 
 class Company {
+	
+private:
 	std::string name;
 	int id;
 public:

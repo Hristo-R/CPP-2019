@@ -17,7 +17,6 @@ int main() {
 	string line;
 	while (getline(cin, line) && line != "end") {
 		istringstream lineIn(line);
-
 		Company* c = new Company();
 		lineIn >> *c;
 		inserter.insert((const Company*)c);
