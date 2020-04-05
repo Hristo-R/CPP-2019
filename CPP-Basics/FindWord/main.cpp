@@ -18,12 +18,14 @@ int findWord(char* word, const char* text)
 
     for (unsigned int i = 0; i <= textLength - wordLength; i++) {
         index = i;
+		
         for (unsigned int j = 0; j < wordLength; j ++) {
             if (text[j + i] != word[j]) {
                 index = -1;
                 break;
             }
         }
+		
         if (index != -1) {
             return index;
         }
