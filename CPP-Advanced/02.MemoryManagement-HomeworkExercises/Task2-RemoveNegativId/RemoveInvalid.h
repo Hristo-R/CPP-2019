@@ -14,5 +14,4 @@ void removeInvalid(std::list<Company*> &companies) {
     }
 }
 
-
 #endif // REMOVEINVALID_H_INCLUDED
