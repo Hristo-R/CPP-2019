@@ -7,7 +7,7 @@ int main()
     int days;
     cout << "Please input days in range [0, 1000000]" << endl;
 
-    while(!(cin >> days) || (days < 0) || (days > 1000000)){
+    while(!(cin >> days) || (days < 0) || (days > 1000000)) {
         cin.clear();
         cin.ignore(1000, '\n');
         cout << "Invalid input\n";
