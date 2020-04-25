@@ -16,8 +16,7 @@ char *toUppercase(char* sentence) {
     return sentence;
 }
 
-int main()
-{
+int main() {
     char sentence[MAX_LENGTH];
 
     cout << "Enter sentence:" << endl;
