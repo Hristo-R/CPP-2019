@@ -5,8 +5,7 @@ using namespace std;
 
 const int MAX_LENGTH = 100;
 
-char *toUppercase(char* sentence)
-{
+char *toUppercase(char* sentence) {
     size_t textLength = strlen(sentence);
     for (unsigned int i = 0; i < textLength; i++) {
         if (sentence[i] >= 'a' && sentence[i] <= 'z') {
@@ -17,8 +16,7 @@ char *toUppercase(char* sentence)
     return sentence;
 }
 
-int main()
-{
+int main() {
     char sentence[MAX_LENGTH];
 
     cout << "Enter sentence:" << endl;

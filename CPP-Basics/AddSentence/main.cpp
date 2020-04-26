@@ -26,7 +26,6 @@ int main() {
     char text[MAX_LENGTH + 1];
     char newText[MAX_LENGTH * 2 + 1];
     char sentence[MAX_LENGTH + 1];
-
     unsigned int position;
 
     cout << "Enter text:" << endl;

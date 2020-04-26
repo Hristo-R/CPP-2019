@@ -3,7 +3,6 @@
 
 #include <list>
 
-
 void removeInvalid(std::list<Company*> &companies) {
     for (std::list<Company*>::iterator itr = companies.begin(); itr != companies.end();) {
         if ((*itr)->getId() < 0) {
@@ -14,6 +13,5 @@ void removeInvalid(std::list<Company*> &companies) {
         }
     }
 }
-
 
 #endif // REMOVEINVALID_H_INCLUDED
