@@ -6,8 +6,7 @@ using namespace std;
 
 const short int MAX_LENGTH = 1000;
 
-void addSentence(int position, char* sentence, char* text, char* newText)
-{
+void addSentence(int position, char* sentence, char* text, char* newText) {
     size_t textLength = strlen(text);
     size_t sentenceLength = strlen(sentence);
     int newIndex = 0;
