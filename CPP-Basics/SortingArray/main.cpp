@@ -2,8 +2,7 @@
 
 using namespace std;
 
-void sortingArrayAscending(int *arr, int sizeArr)
-{
+void sortingArrayAscending(int *arr, int sizeArr) {
     int temp;
     for (int i = 0; i < sizeArr; i++) {
         for (int j = i + 1; j < sizeArr; j++) {
