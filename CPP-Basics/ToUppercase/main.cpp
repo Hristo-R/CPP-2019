@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int MAX_LENGTH = 10000;
+const int MAX_LENGTH = 1000;
 
 char *toUppercase(char* sentence) {
     size_t textLength = strlen(sentence);
