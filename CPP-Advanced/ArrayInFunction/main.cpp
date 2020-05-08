@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void ChangeArray (double arr[][5]){
+void ChangeArray (double arr[][5]) {
     for(size_t row = 0; row < 3; row++) {
-        for(size_t col= 0; col< 5; col++){
+        for(size_t col= 0; col< 5; col++) {
             arr[row][col]++;
         }
     }
