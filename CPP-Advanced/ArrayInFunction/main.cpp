@@ -20,7 +20,7 @@ void PrintArray (double arr[][5]) {
     std::cout << std::endl;
 }
 
-int main(){
+int main() {
     double data[3][5] = {
         10., 11., 12., 13., 14.,
         20., 21., 22., 23., 24.,
