@@ -36,7 +36,7 @@ int findWord(const char* word, const char* text) {
 int main()
 {
     char text[MAX_LENGTH];
-    char word[MAX_LENGTH ];
+    char word[MAX_LENGTH];
 
     int index;
 
