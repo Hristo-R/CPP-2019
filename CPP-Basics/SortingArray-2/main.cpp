@@ -17,8 +17,7 @@ int *sortingArrayAscending(int *arr, int sizeArr) {
     return arr;
 }
 
-int *sortingArrayDescending(int *arr, int sizeArr)
-{
+int *sortingArrayDescending(int *arr, int sizeArr) {
     int temp;
     for (int i = 0; i < sizeArr; i++) {
         for (int j = i + 1; j < sizeArr; j++) {
