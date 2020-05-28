@@ -32,8 +32,7 @@ int *sortingArrayDescending(int *arr, int sizeArr) {
     return arr;
 }
 
-void printingArray(int *arr, int sizeArr)
-{
+void printingArray(int *arr, int sizeArr) {
     for (int i = 0; i < sizeArr; i++) {
         cout << arr[i] << " ";
     }
