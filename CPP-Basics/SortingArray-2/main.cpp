@@ -39,8 +39,7 @@ void printingArray(int *arr, int sizeArr) {
     cout << endl;
 }
 
-int main()
-{
+int main() {
     int n;
     cout << "Input array size: " << endl;
     cin >> n;
