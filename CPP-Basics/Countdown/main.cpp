@@ -5,8 +5,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     unsigned short int time;
 	
     cout << "Please input a integer in range [1, 65535]" << endl;
