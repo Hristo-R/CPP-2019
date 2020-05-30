@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int days;
     cout << "Please input days in range [0, 1000000]" << endl;
 
