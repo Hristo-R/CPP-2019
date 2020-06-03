@@ -23,7 +23,7 @@ void addSentence(int position, char* sentence, char* text, char* newText) {
 }
 
 int main() {
-    char text[MAX_LENGTH + 1];
+    char text[MAX_LENGTH];
     char newText[MAX_LENGTH * 2 + 1];
     char sentence[MAX_LENGTH + 1];
     unsigned int position;
