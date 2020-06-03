@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const short int MAX_LENGTH = 1000;
+const short int MAX_LENGTH = 10000;
 
 void addSentence(int position, char* sentence, char* text, char* newText) {
     size_t textLength = strlen(text);
