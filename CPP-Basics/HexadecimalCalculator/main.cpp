@@ -134,7 +134,7 @@ int main()
          secondChar = char(remainder + 48);
     }
 
-    decResult = decResult/16;
+    decResult = decResult / 16;
     remainder = decResult % 16;
 
     if (remainder > 9){
