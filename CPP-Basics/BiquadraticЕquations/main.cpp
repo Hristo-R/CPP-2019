@@ -10,6 +10,7 @@ int main() {
 
     cout << "a = ";
     cin >> a;
+    
     cout << "b = ";
     cin >> b;
     cout << "c = ";
