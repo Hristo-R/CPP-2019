@@ -41,8 +41,7 @@ int CharToDecimalValue(char hexValueChar) {
     }
 }
 
-int main()
-{
+int main() {
     char arithmeticOperator;
     char hexValueChar1;
     char hexValueChar2;
