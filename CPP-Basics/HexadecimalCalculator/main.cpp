@@ -4,7 +4,7 @@
 using namespace std;
 
 int CharToDecimalValue(char hexValueChar) {
-    switch (hexValueChar){
+    switch(hexValueChar) {
         case '0': return 0;
             break;
         case '1': return 1;
