@@ -2,8 +2,8 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
+    
     int n = 5;
     int matrix[n][n] = {
         {9, 5, 2, 4, 3},
