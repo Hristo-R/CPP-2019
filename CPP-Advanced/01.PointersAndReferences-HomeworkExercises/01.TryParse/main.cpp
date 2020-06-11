@@ -3,8 +3,7 @@
 
 #include "TryParse.h"
 
-int main() 
-{
+int main() {
 	std::string aString, bString;
 	std::cin >> aString >> bString;
 
