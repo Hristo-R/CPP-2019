@@ -63,7 +63,7 @@ int main() {
     cin >> hexValueChar1;
     while(cin.fail() || !(hexValueChar1 == '1' || hexValueChar1 == '2' || hexValueChar1 == '3' || hexValueChar1 == '4' || hexValueChar1 == '5' || hexValueChar1 == '6' || hexValueChar1 == '7' || hexValueChar1 == '8' || hexValueChar1 == '9' || hexValueChar1 == 'A' || hexValueChar1 == 'B' || hexValueChar1 == 'C' || hexValueChar1 == 'D' || hexValueChar1 == 'E' || hexValueChar1 == 'F')) {
         cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); //Ignore rest of the line.
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input\n";
         cout << "Input first positive single-digit hexadecimal number" << endl;
         cin >> hexValueChar1;
