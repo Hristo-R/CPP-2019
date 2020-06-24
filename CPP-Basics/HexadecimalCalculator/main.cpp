@@ -73,7 +73,7 @@ int main() {
     cin >> hexValueChar2;
     while(cin.fail() || !(hexValueChar2 == '1' || hexValueChar2 == '2' || hexValueChar2 == '3' || hexValueChar2 == '4' || hexValueChar2 == '5' || hexValueChar2 == '6' || hexValueChar2 == '7' || hexValueChar2 == '8' || hexValueChar2 == '9' || hexValueChar2 == 'A' || hexValueChar2 == 'B' || hexValueChar2 == 'C' || hexValueChar2 == 'D' || hexValueChar2 == 'E' || hexValueChar2 == 'F')) {
         cin.clear(); //Clear errors flags
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); //Ignore rest of the line.
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input\n";
         cout << "Input second positive single-digit hexadecimal number" << endl;
         cin >> hexValueChar2;
