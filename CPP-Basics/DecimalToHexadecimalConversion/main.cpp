@@ -5,7 +5,8 @@ using namespace std;
 void decimalToHex(int n);
 
 int main() {
-    int num, base;
+    int num;
+    int base;
 
     cout << "Enter decimal number to convert: ";
     cin >> num;
