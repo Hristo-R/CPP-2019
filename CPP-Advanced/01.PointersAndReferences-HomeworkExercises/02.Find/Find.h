@@ -13,4 +13,4 @@ Company* find(std::vector<Company*> companies, int searchId) {
     	return nullptr;
 }
 
-#endif // FIND_H_INCLUDED
+#endif FIND_H_INCLUDED
