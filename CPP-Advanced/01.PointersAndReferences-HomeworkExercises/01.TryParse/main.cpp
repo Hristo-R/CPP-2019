@@ -21,8 +21,7 @@ int main() {
 
 		if (parsedB) {
 			std::cout << b << std::endl;
-		}
-		else {
+		} else {
 			std::cout << "[error] " << bString << std::endl;
 		}
 	}
