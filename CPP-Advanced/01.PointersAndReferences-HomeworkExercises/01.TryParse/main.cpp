@@ -15,8 +15,7 @@ int main() {
 	} else {
 		if (parsedA) {
 			std::cout << a << std::endl;
-		}
-		else {
+		} else {
 			std::cout << "[error] " << aString << std::endl;
 		}
 
