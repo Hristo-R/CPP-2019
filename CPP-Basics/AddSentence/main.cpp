@@ -45,6 +45,7 @@ int main() {
         cin.getline(sentence, MAX_LENGTH);
     }
     addSentence(position, sentence, text, newText);
+    
     strcpy(text, newText);
     cout << text << endl;
 
