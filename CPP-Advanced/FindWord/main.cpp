@@ -6,7 +6,8 @@ using namespace std;
 
 const short int MAX_LENGTH = 1000;
 
-int findWord(const char* word, const char* text) {
+int findWord(const char* word, const char* text) 
+{
     int index = -1;
     size_t wordLength = strlen(word);
     size_t textLength = strlen(text);
